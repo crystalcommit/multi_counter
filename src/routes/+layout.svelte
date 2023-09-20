@@ -1,7 +1,6 @@
 <script lang="ts">
   import Header from "./layout/Header.svelte";
   import "../app.css";
-
 </script>
 
 <svelte:head>
@@ -13,9 +12,8 @@
   <div class="text-center">
     <Header />
     <main>
-      <slot/>
+      <slot />
     </main>
-    
   </div>
 </div>
 
